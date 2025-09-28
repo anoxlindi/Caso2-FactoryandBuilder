@@ -1,9 +1,9 @@
 
 package Model;
-import Model.Combo;
+
+import Model.Combo; // como ya es abstract no es necesario repetir los atributos
         
-// aqui se hace lo mismo que en hamburguesa 
-public abstract class ComboPollo extends ComboBase {
+public abstract class ComboVegetariano extends ComboBase {
 
     @Override
     public String getDescripcion() {
@@ -12,5 +12,5 @@ public abstract class ComboPollo extends ComboBase {
 
     @Override
     public double getPrecio() {
-        return 14.0; // solo le cambiaremos el precio
-} }
+        return 13.50; // solo le cambiaremos el precio
+}}
