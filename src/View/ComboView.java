@@ -1,5 +1,6 @@
 
-package View; 
+package View; // esta es para consola, me confundí, no pense que
+// se tenia que crear una interfaz, crearé solo una para interfaz
 
 import Controller.ComboController; // Importa el controlador para coordinar la lógica
 import java.util.Scanner; // Importa Scanner para leer entrada del usuario por consola
