@@ -1,20 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-package caso2.factoryandbuilder;
+package caso2.factoryandbuilder; 
+
+import View.ComboView; // Importa la vista que inicia la interacción con el usuario
 
 /**
- *
+ * Clase principal del proyecto
+ * Aquí comienza la ejecución del programa
  * @author Analia
  */
 public class Caso2FactoryandBuilder {
 
     /**
-     * @param args the command line arguments
+     * Método main: punto de entrada del programa
+     * @param args argumentos de línea de comandos (no usados aquí)
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        ComboView vista = new ComboView(); // Crea una instancia de la vista
+        vista.mostrarOpciones();           // Llama al método que inicia el flujo de interacción
     }
-    
 }
